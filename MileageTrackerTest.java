@@ -60,7 +60,12 @@ public class MileageTrackerTest
         assertEquals(15, amount, 1e-6);
     }
     
+    @Test
+    public void testIncrementFuelConsumed()
+    {
     
+    
+    }
     
     
     
