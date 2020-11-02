@@ -65,5 +65,6 @@ public class CaesarCipherDemo
 
         String encryptedText = cipher.encrypt(text);
         System.out.println("Encrypted: " + encryptedText);
+
     }
 }
