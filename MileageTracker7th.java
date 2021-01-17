@@ -5,7 +5,7 @@
  * @author mrcallaghan
  * @version 05 October 2020
  */
-public class MileageTracker
+public class MileageTracker7th
 {
     /*
      * 2. Define the instance variables (store the object's attributes):
@@ -36,11 +36,11 @@ public class MileageTracker
      */
     
     /**
-     * Default constructor for the MileageTracker class.
+     * Default constructor for the MileageTracker7th class.
      *      Initializes this the miles driven and fuel consumed to 0
      *          and the VIN to null.
      */
-    public MileageTracker()
+    public MileageTracker7th()
     {
         /*
          * The "this" reserved word references the current object (like "self" in Python).
@@ -53,12 +53,12 @@ public class MileageTracker
     }
     
     /**
-     * Constructs a new MileageTracker object with the specified miles driven and fuel consumed.
+     * Constructs a new MileageTracker7th object with the specified miles driven and fuel consumed.
      * 
      * @param initialMilesDriven the number of miles already driven
      * @param initialFuelConsumed the number of gallons of fuel already consumed
      */
-    public MileageTracker(double initialMilesDriven, double initialFuelConsumed)
+    public MileageTracker7th(double initialMilesDriven, double initialFuelConsumed)
     {
         this.milesDriven = initialMilesDriven;
         this.fuelConsumed = initialFuelConsumed;
@@ -100,7 +100,7 @@ public class MileageTracker
      */
     public void incrementFuelConsumed(double gallons)
     {
-           this.fuelConsumed += gallons;
+        this.fuelConsumed += gallons;
     }
 
     /**
@@ -120,7 +120,7 @@ public class MileageTracker
      */
     public double getMileage()
     {
-        return  this.milesDriven / this.fuelConsumed;
+        return this.milesDriven / this.fuelConsumed;
     }
 
     /**
@@ -146,8 +146,8 @@ public class MileageTracker
          * Local and parameter variables "shadow" instance variables of the same name.
          *      In this code, vin would refer to the parameter and not the instance variable.
          *      
-         * To refer explicity to an instance variable, use "this".
-         * Advice: avoid this issue by giving local, parameter, and instance variables unique names!
+         *  To refer explicity to an instance variable, use "this".
+         *  Advice: avoid this issue by giving local, parameter, and instance variables unique names!
          */
         
         this.vin = newVIN;
